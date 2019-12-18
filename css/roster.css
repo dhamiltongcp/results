@@ -103,10 +103,10 @@ button[type=course]{
 }
 
 button[type=NIo]{
-  width: 30%;
+  width: 20%;
   height: 100%;
   max-width: 450px;
-  min-width: 150px;
+  min-width: 100px;
   background-color: #e6e6e4;
   color: #5a5a55;
   padding: 2px 2px;
@@ -119,10 +119,10 @@ button[type=NIo]{
 }
 
 button[type=MEx]{
-  width: 30%;
+  width: 20%;
   height: 100%;
   max-width: 450px;
-  min-width: 150px;
+  min-width: 100px;
   background-color: #3a9633;
   color: white;
   padding: 2px 2px;
@@ -162,9 +162,9 @@ button[type=results]{
   margin: 5px 1px;
   border-color: #5a5a55;
   border-radius: 5px;
-  font-size: 1.1rem;
+  font-size: 1rem;
   text-align: center;
-  font-weight: bold;
+  font-weight:normal;
 }
 
 button[type=notes]{
