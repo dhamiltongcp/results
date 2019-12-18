@@ -106,7 +106,7 @@ button[type=NIo]{
   width: 20%;
   height: 100%;
   max-width: 450px;
-  min-width: 100px;
+  min-width: 80px;
   background-color: #e6e6e4;
   color: #5a5a55;
   padding: 2px 2px;
@@ -122,7 +122,7 @@ button[type=MEx]{
   width: 20%;
   height: 100%;
   max-width: 450px;
-  min-width: 100px;
+  min-width: 80px;
   background-color: #3a9633;
   color: white;
   padding: 2px 2px;
