@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #eaf2ef;
+  color: #253031;
+  font-size: 1rem;
+  font-family: "Arial", sans-sans-serif;
+}
+
+h1{
+  font-size: 2rem;
+  margin: 2%;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+h2{
+  font-size: 2rem;
+  margin: 2%;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+h3{
+  text-align: center;
+}
+
+hr{
+  margin-bottom: 1rem;
+  border: 3px solid #912f56;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px grey;
+}
+
+p{
+  margin: 2%;
+  padding: 0;
+  background-color: #eaf2ef;
+  color: #253031;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.outer_container{
+  min-height: 100vh;
+  margin-bottom: -46px;
+}
+
+.outer_container::after{
+  content: "";
+  display: block;
+  height: 46px;
+}
+
+nav, ul, header{
+  margin: 0;
+  padding: 0;
+  background-color: #253031;
+  color: #f5edf0;
+  font-size: 1rem;
+  font-weight:bold;
+}
+
+header{
+  box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.4);
+}
+
+.button {
+  cursor: pointer;
+  background-color: #668586;
+  border: none;
+  color: #eaf2ef;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.15rem;
+  border-radius: 8px;
+  -webkit-transition-duration: 0.3s; /* Safari */
+  transition-duration: 0.3s;
+}
+
+.button:hover {
+  background-color: #d1ccdc;
+  color: #253031;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+}
+
+
+.foot {
+  padding: 0;
+  margin: 0;
+  background-color: #253031;
+  color: #f5edf0;
+  clear: left;
+  height: 46px;
+  width: 100%;
+}
+
+.foot_link {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    width: 100%;
+    color: #f5edf0;
+    padding-top: 10px;
+    font-size: 1.25rem;
+  }
+
+.dropbtn {
+  font-size: 1rem;
+  margin: 0;
+  display: block;
+  background-color: #253031;
+  color: #f5edf0;
+  padding: 14px 16px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  height: 16px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+nav.menu {
+  background-color: #253031;
+  color: #f5edf0;
+  position: relative;
+  display: inline-block;
+  height: 44px;
+
+}
+
+/* Dropdown Content (Hidden by Default) */
+.menu-content {
+  display: none;
+  position: absolute;
+  background-color: #253031;
+  min-width: 160px;
+  z-index: 1;
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Links inside the dropdown */
+.menu-content a {
+  color: #f5edf0;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.menu-content a:hover {
+  background-color: #d1ccdc;
+  color: #424c55;
+}
+
+/* Show the dropdown menu on hover */
+.menu:hover .menu-content {
+  display: block;
+}
+
+/* Show the dropdown menu on click - reference from menu.js */
+.show {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.menu:hover .dropbtn {
+  background-color: #d1ccdc;
+  width: 128px;
+}
+
+.admin {
+  float:none;
+}
+
+#active {
+  text-shadow: 0 0 15px #e1faf7;
+  text-decoration: underline;
+}
+
+#buttons {
+  margin: 0 auto;
+  width: 167px;
+}
+
+@media screen and (min-width: 700px){
+  .admin {
+    float:right;
+  }
+  h1{
+    font-size: 2rem;
+  }
+  h2{
+    font-size: 2rem;
+  }
+
+  .dropbtn{
+    display: none;
+  }
+
+  nav.menu{
+    position: static;
+    display: block;
+    margin: 0;
+  }
+  ul.menu-content {
+    position: static;
+    display: inline;
+    float: left;
+    width: 100%;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #253031;
+    height: 44px;
+    margin: 0;
+  }
+  .menu-content a {
+    margin: 0;
+    float: left;
+    display: block;
+    color: #f5edf0;
+    text-decoration: none;
+  }
+  .menu-content a:hover{
+    background-color: #d1ccdc;
+  }
+
+  .button{
+    padding: 10px 32px;
+    font-size: 1.25rem;
+  }
+  #buttons {
+    margin: 0 auto;
+    width: 222px;
+  }
+
+  @media screen and (min-width: 1100px){
+    .button{
+      font-size: 1.4rem;
+      padding: 10px 32px;
+    }
+    #buttons {
+      margin: 0 auto;
+      width: 235px;
+    }
+  }

@@ -1,0 +1,148 @@
+.pic_holder{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  min-width: 200px;
+  text-shadow: 2px 2px 2px #000000;
+}
+
+.s_ham, .d_ham, .c_ham, .b_ham{
+  display: none;
+}
+
+.roster_text {
+  width: 90%;
+  margin: auto;
+}
+
+.roster_text_label{
+  background-color: #eaf2ef;
+  color: #253031;
+  margin-left: 10px;
+  font-size: 1rem;
+  list-style-type: none;
+  vertical-align: top;
+}
+
+.roster_text_content{
+  background-color: #eaf2ef;
+  color: #253031;
+  margin-left: 10px;
+  font-size: 1rem;
+  list-style-type: none;
+}
+
+img{
+  display: block;
+  margin: auto;
+  border-radius: 25%;
+  width: 100%;
+  min-width: 200px;
+  max-width: 400px;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+hr {
+  margin-top: 5px;
+}
+
+#roster_cont{
+  width: 90%;
+  max-width: 1300px;
+  margin: auto;
+}
+
+.pic {
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.col2{
+  width: 40%;
+  text-align: right;
+  min-width: 90px;
+}
+
+.col3 {
+  width: 40%;
+  text-align: left;
+  min-width: 145px;
+}
+
+table {
+  width: 100%;
+  margin: auto;
+}
+
+@media screen and (min-width: 800px){
+
+  .centered {
+    top: 90%;
+  }
+
+  .s_ham, .d_ham, .c_ham, .b_ham{
+    display: inline-block !important;
+  }
+
+  .roster_text_label{
+    font-size: 1.50rem;
+  }
+
+  .roster_text_content{
+    font-size: 1.50rem;
+  }
+
+  img{
+    display: inline-block;
+    width: 250px;
+    float: none;
+  }
+
+  .pic {
+    display: inline-block;
+    margin:auto;
+    width: 40%;
+    margin-bottom: 5px;
+  }
+
+  .col2{
+    width: 15%;
+    min-width: 140px;
+    text-align: inherit;
+    vertical-align: top;
+  }
+
+  .col3 {
+    min-width: 220px;
+    width: 35%;
+    text-align: inherit;
+    vertical-align: top;
+  }
+}
+
+@media screen and (min-width: 1150px){
+
+  .roster_text_label{
+    font-size: 1.75rem;
+  }
+
+  .roster_text_content{
+    font-size: 1.75rem;
+  }
+
+  .col2 {
+    min-width: 175px;
+  }
+
+  .col3 {
+    min-width: 250px;
+  }
+}

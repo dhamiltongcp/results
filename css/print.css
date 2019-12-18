@@ -1,0 +1,49 @@
+header {
+  display: none;
+}
+
+#print_inst {
+  display: none;
+}
+
+h1 {
+  font-size: 1rem;
+}
+
+.container {
+  width: 95%;
+}
+
+table {
+  display: inline-block;
+  float: left;
+  width: 31%;
+  border: none;
+}
+
+table, tr, td, th {
+  font-size: .75rem;
+  height: 1rem;
+  margin: 1px;
+  padding: 1px;
+}
+
+#t_a, #t_b, #t_c, #t_d, #t_e, #t_f, #t_g, #t_h, #t_i, #t_j, #t_k, #t_l, #t_m {
+  display: none;
+}
+
+#t_n, #t_o, #t_p, #t_q, #t_r, #t_s, #t_t, #t_u, #t_v, #t_w, #t_x, #t_y, #t_z {
+  display: none;
+}
+
+#t_aa, #t_ab, #t_ac, #t_ad, #t_ae, #t_af, #t_ag, #t_ah, #t_ai, #t_aj, #t_ak {
+  display: none;
+}
+
+#t_al, #t_am, #t_an, #t_ao, #t_ap {
+  display: none;
+}
+
+footer {
+  display: none;
+}
