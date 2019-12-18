@@ -103,7 +103,7 @@ button[type=course]{
 }
 
 button[type=NIo]{
-  width: 20%;
+  width: 15%;
   height: 100%;
   max-width: 450px;
   min-width: 80px;
@@ -119,7 +119,7 @@ button[type=NIo]{
 }
 
 button[type=MEx]{
-  width: 20%;
+  width: 15%;
   height: 100%;
   max-width: 450px;
   min-width: 80px;
