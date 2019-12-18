@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" href="css/roster.css">
+    <link rel="icon" href="images/favicon.png">
+    <script src="https://kit.fontawesome.com/1e0f95045e.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/roster.js"></script>
+    <title>Instructor Exam - Results</title>
+  </head>
+
+  <body>
+    <div class="outer_container">
+    <header>
+      <nav class="menu" onclick="myFunction()">
+        <p class="dropbtn"><i class="fas fa-bars fa-lg"></i></p>
+        <ul class="menu-content" id="myDropdown">
+          <li><a id="active" href="#">Home</a></li>
+          <li class="admin"><a href="admin.html" aria-label="Sign Out"><i class="fas fa-sign-out-alt"></i></a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+        <h1>Results</h1>
+
+        <div id="roster_cont">
+          <div class="pic result_holder">
+            <button type="level" value="Level 1" onclick="openClose('d_ham')" alt="Level 1">Level 1</button>
+          </div>
+
+            <div class="d_ham col3">
+              <ul class="roster_text_label">
+                <li><button type="course" onclick="location.href='result1.html';" alt="Level 1">Caledon - Dec. 2019</button></li>
+                <li><button type="course" onclick="location.href='result2.html';" alt="Level 1">Glen Eden - Mar. 2019</button></li>
+              </ul>
+            </div>
+
+
+
+
+      </main>
+
+</div>
+
+    <footer>
+      <div class="foot">
+        <a class="foot_link" href="https://www.snowpro.com/en/" target="_blank">CSIA Website</a>
+      </div>
+    </footer>
+
+  </body>
+
+</html>

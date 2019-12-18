@@ -1,5 +1,5 @@
 * {
-  margin: 0;
+  margin: auto;
   padding: 0;
   box-sizing: border-box;
 }
@@ -117,7 +117,7 @@ header{
 .dropbtn {
   font-size: 1rem;
   margin: 0;
-  display: block;
+  display: none;
   background-color: #253031;
   color: #f5edf0;
   padding: 14px 16px;
@@ -180,7 +180,7 @@ nav.menu {
 }
 
 .admin {
-  float:none;
+  float:right;
 }
 
 #active {
@@ -191,6 +191,41 @@ nav.menu {
 #buttons {
   margin: 0 auto;
   width: 167px;
+}
+nav.menu{
+  position: static;
+  display: block;
+  margin: 0;
+}
+ul.menu-content {
+  position: static;
+  display: inline;
+  float: left;
+  width: 100%;
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #253031;
+  height: 44px;
+  margin: 0;
+}
+.menu-content a {
+  margin: 0;
+  float: left;
+  display: block;
+  color: #f5edf0;
+  text-decoration: none;
+}
+.menu-content a:hover{
+  background-color: #d1ccdc;
+}
+
+.button{
+  padding: 10px 32px;
+  font-size: 1.25rem;
+}
+#buttons {
+  margin: 0 auto;
+  width: 222px;
 }
 
 @media screen and (min-width: 700px){
