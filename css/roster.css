@@ -14,9 +14,9 @@
   color: #253031;
 }
 
-.safe, .d_ham, .c_ham, .b_ham{
+.safe, .safe2, .safe3, .safe4, .ski1, .ski2, .d_ham, .c_ham, .b_ham{
   display: none;
-  width: 95%;
+  width: 100%;
 }
 
 .roster_text {
@@ -167,40 +167,43 @@ button[type=results]{
   font-weight: bold;
 }
 
-button[type=resultsx]{
-  width: 22%;
+button[type=notes]{
+  width: 100%;
   height: 100%;
-  max-width: 200px;
-  min-width: 50px;
-  background-color: #3a9633;
-  color: white;
-  padding: 3px 3px;
-  margin: 5px 1px;
-  border-color: #5a5a55;
-  border-radius: 5px;
-  font-size: 1rem;
-  text-align: center;
-  font-weight: bold;
-}
-
-button[type=resultso]{
-  width: 22%;
-  height: 100%;
-  max-width: 200px;
+  max-width: 300px;
   min-width: 50px;
   background-color: #e6e6e4;
   color: #5a5a55;
-  padding: 3px 3px;
+  padding: 5px 5px;
   margin: 5px 1px;
   border-color: #5a5a55;
   border-radius: 5px;
-  font-size: 1rem;
+  font-size: 1.1rem;
   text-align: center;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .required{
   border-width: 5px;
+}
+
+.pass{
+  background-color: #3a9633 !important;
+  color: white !important;
+}
+
+.fail{
+  background-color: #d60404 !important;
+  color: white !important;
+}
+
+.text{
+  font-size: 1rem;
+  display: none;
+  width: 95%;
+  margin: 0px;
+  padding: 0px;
 }
 
 .description{
